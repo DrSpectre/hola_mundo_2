@@ -9,6 +9,8 @@ import SwiftUI
 
 struct BotonTicTac: View {
     @State var opcion_a_mostrar = 0
+    @State var nombre_del_jugador = ""
+    
     
     let opciones = ["-", "X", "O"]
     
